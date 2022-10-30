@@ -68,7 +68,7 @@
             this.GoButton.TabIndex = 6;
             this.GoButton.Text = "Go!";
             this.GoButton.UseVisualStyleBackColor = true;
-            this.GoButton.Click += new System.EventHandler(this.xGoButton_Click);
+            this.GoButton.Click += new System.EventHandler(this.GoButton_Click);
             // 
             // ResetButton
             // 
@@ -78,7 +78,7 @@
             this.ResetButton.TabIndex = 7;
             this.ResetButton.Text = "Reset";
             this.ResetButton.UseVisualStyleBackColor = true;
-            this.ResetButton.Click += new System.EventHandler(this.xResetButton_Click);
+            this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
             // 
             // Form1
             // 
