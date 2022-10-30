@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.xInputTextBox = new System.Windows.Forms.TextBox();
+            this.InputTextBox = new System.Windows.Forms.TextBox();
             this.xInputLabel = new System.Windows.Forms.Label();
             this.xOutputLabel = new System.Windows.Forms.Label();
-            this.xGoButton = new System.Windows.Forms.Button();
-            this.xResetButton = new System.Windows.Forms.Button();
+            this.GoButton = new System.Windows.Forms.Button();
+            this.ResetButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // xInputTextBox
+            // InputTextBox
             // 
-            this.xInputTextBox.Location = new System.Drawing.Point(92, 45);
-            this.xInputTextBox.Name = "xInputTextBox";
-            this.xInputTextBox.Size = new System.Drawing.Size(100, 20);
-            this.xInputTextBox.TabIndex = 0;
+            this.InputTextBox.Location = new System.Drawing.Point(92, 45);
+            this.InputTextBox.Name = "InputTextBox";
+            this.InputTextBox.Size = new System.Drawing.Size(100, 20);
+            this.InputTextBox.TabIndex = 0;
             // 
             // xInputLabel
             // 
@@ -60,36 +60,36 @@
             this.xOutputLabel.TabIndex = 4;
             this.xOutputLabel.Visible = false;
             // 
-            // xGoButton
+            // GoButton
             // 
-            this.xGoButton.Location = new System.Drawing.Point(105, 96);
-            this.xGoButton.Name = "xGoButton";
-            this.xGoButton.Size = new System.Drawing.Size(75, 67);
-            this.xGoButton.TabIndex = 6;
-            this.xGoButton.Text = "Go!";
-            this.xGoButton.UseVisualStyleBackColor = true;
-            this.xGoButton.Click += new System.EventHandler(this.xGoButton_Click);
+            this.GoButton.Location = new System.Drawing.Point(105, 96);
+            this.GoButton.Name = "GoButton";
+            this.GoButton.Size = new System.Drawing.Size(75, 67);
+            this.GoButton.TabIndex = 6;
+            this.GoButton.Text = "Go!";
+            this.GoButton.UseVisualStyleBackColor = true;
+            this.GoButton.Click += new System.EventHandler(this.xGoButton_Click);
             // 
-            // xResetButton
+            // ResetButton
             // 
-            this.xResetButton.Location = new System.Drawing.Point(105, 212);
-            this.xResetButton.Name = "xResetButton";
-            this.xResetButton.Size = new System.Drawing.Size(75, 23);
-            this.xResetButton.TabIndex = 7;
-            this.xResetButton.Text = "Reset";
-            this.xResetButton.UseVisualStyleBackColor = true;
-            this.xResetButton.Click += new System.EventHandler(this.xResetButton_Click);
+            this.ResetButton.Location = new System.Drawing.Point(105, 212);
+            this.ResetButton.Name = "ResetButton";
+            this.ResetButton.Size = new System.Drawing.Size(75, 23);
+            this.ResetButton.TabIndex = 7;
+            this.ResetButton.Text = "Reset";
+            this.ResetButton.UseVisualStyleBackColor = true;
+            this.ResetButton.Click += new System.EventHandler(this.xResetButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.xResetButton);
-            this.Controls.Add(this.xGoButton);
+            this.Controls.Add(this.ResetButton);
+            this.Controls.Add(this.GoButton);
             this.Controls.Add(this.xOutputLabel);
             this.Controls.Add(this.xInputLabel);
-            this.Controls.Add(this.xInputTextBox);
+            this.Controls.Add(this.InputTextBox);
             this.Name = "Form1";
             this.Text = "Exponents Demo";
             this.ResumeLayout(false);
@@ -99,11 +99,11 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox xInputTextBox;
+        private System.Windows.Forms.TextBox InputTextBox;
         private System.Windows.Forms.Label xInputLabel;
         private System.Windows.Forms.Label xOutputLabel;
-        private System.Windows.Forms.Button xGoButton;
-        private System.Windows.Forms.Button xResetButton;
+        private System.Windows.Forms.Button GoButton;
+        private System.Windows.Forms.Button ResetButton;
     }
 }
 
